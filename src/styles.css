@@ -1,5 +1,6 @@
 h1{
     text-align: center;
+    font-weight: 400;
 }
 h2, h3{
     font-size: 30px;
@@ -7,27 +8,50 @@ h2, h3{
 }
 h4{
     text-align: right;
-    font-size: 20px;
+    font-size: 46px;
     
 }
 body{font-family: 'MuseoModerno', sans-serif;
-background: linear-gradient(180.3deg, rgb(221, 221, 221) 5.5%, rgb(110, 136, 161) 90.2%);
+    background:#302E29;
 }
  a{
     text-decoration: none;
+    color:#CA804F ;
+font-weight: 300;
  }
-.links{
-    background: linear-gradient(0deg, rgb(247, 247, 247) 23.8%, rgb(252, 221, 221) 92%);
+
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+     border: none;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+
+a{
+    color: #CA804F;
+}
+a .links {
+background: #302E29;
 max-width: 600px;
-margin: 45px auto;
+margin: 36px auto;
 box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
 border-radius: 16px;
 padding: 30px;
 color: #000;
 text-align: center;
+font:200px;
+
 }
-.intro-container{background: linear-gradient(0deg, rgb(247, 247, 247) 23.8%, rgb(252, 221, 221) 92%);
-    max-width: 600px;
+.intro-container{background: linear-gradient(87.4deg, rgb(255, 241, 165) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%);
+    max-width: 100%;
     margin: 45px auto;
     box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
     border-radius: 16px;
@@ -42,43 +66,20 @@ background: linear-gradient(0deg, rgb(247, 247, 247) 23.8%, rgb(252, 221, 221) 9
         padding: 30px;
         color: #000;
     }
-.twenty-one{
-    background: linear-gradient(0deg, rgb(247, 247, 247) 23.8%, rgb(252, 221, 221) 92%);
-        max-width: 600px;
-        margin: 45px auto;
-        box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
-        border-radius: 16px;
-        padding: 30px;
-        text-align: center;
-        color: #000;
 
+
+.container {
+    position: relative;
 }
 
-.twenty-two{
-    background:linear-gradient(0deg, rgb(247, 247, 247) 23.8%, rgb(252, 221, 221) 92%);
-        max-width: 600px;
-        margin: 45px auto;
-        box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
-        border-radius: 16px;
-        padding: 30px;
-        text-align: center;
-}
-.twenty-three{
-    background:linear-gradient(0deg, rgb(247, 247, 247) 23.8%, rgb(252, 221, 221) 92%);
-        max-width: 600px;
-        margin: 45px auto;
-        box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
-        border-radius: 16px;
-        padding: 30px;
-        text-align: center;
-}
-
-.twenty-four{
-    background: linear-gradient(0deg, rgb(247, 247, 247) 23.8%, rgb(252, 221, 221) 92%);
-        max-width: 600px;
-        margin: 45px auto;
-        box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
-        border-radius: 16px;
-        padding: 30px;
-        text-align: center;
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    font-weight: 300;
 }
